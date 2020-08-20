@@ -28,8 +28,6 @@ function Voca(subject) {
   return new ChainWrapper(subject, false);
 }
 
-Object.assign(Voca, functions, {
-  chain: chain,
-});
+Object.assign(Voca, functions, { chain });
 
 export default Voca;
